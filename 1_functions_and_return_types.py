@@ -1,7 +1,6 @@
 import time
 
 
-# functions
 def foo(seconds, message):
     """untyped example"""
     time.sleep(seconds)

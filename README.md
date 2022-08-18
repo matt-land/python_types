@@ -27,7 +27,7 @@ Where types matter:
 ```python
 from __future__ import annotations
 try:
-    from typing import TypeAlias  # > 3.10
+    from typing import TypeAlias  # >= 3.10
 except ImportError:
     from typing_extensions import TypeAlias
 
